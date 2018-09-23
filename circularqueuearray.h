@@ -48,4 +48,4 @@ void serve(Q *pQueue,int *served,int *underflow)
 		pQueue->front = (pQueue->front == MAXQUEUE-1) ? 0 : (pQueue->front)+1;
 		*served = pQueue->a[pQueue->front];
 	}
-}  
+}   

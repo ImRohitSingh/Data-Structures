@@ -1,4 +1,4 @@
-/* Queue implemented with the help of a Circular Linked List (Enqueue and Dequeue are constant time operation) */
+/* Queue implemented with the help of a Circular Linked List (Enqueue and Dequeue are constant time operations) */
 #include <stdio.h>
 #include <stdlib.h>
 #include "queuelinkedlist.h"

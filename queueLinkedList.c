@@ -35,5 +35,5 @@ int main(void)
 	}
 	while(choice!='C');
 	return 0;
-}
+} 
 

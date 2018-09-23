@@ -12,7 +12,7 @@
 			enqueue (40)
 			dequeue
 			
-			... At this point both ... empty and full conditions are satisfied... */
+			... At this point both ... empty and full conditions both are satisfied... */
 
 int main()
 {

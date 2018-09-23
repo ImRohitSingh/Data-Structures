@@ -43,4 +43,4 @@ void pop(S *pStack,int *popped,int *underflow)
 		*underflow = FALSE;
 		*popped = pStack->a[(pStack->top)--];
 	}
-}  
+}   

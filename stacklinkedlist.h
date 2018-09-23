@@ -51,4 +51,4 @@ int pop(NODEPTR *pStack,int *popped)
 	else
 		*pStack = delNode->next;  // make the next node as the first
 	free(delNode); // clear space	
-} 
+}  

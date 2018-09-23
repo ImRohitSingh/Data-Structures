@@ -63,4 +63,4 @@ int dequeue(NODEPTR *pQueue,int *served)
 	}
 	*served = delNode->info;  // information that was served
 	free(delNode);  // empty space for the served node
-}
+} 

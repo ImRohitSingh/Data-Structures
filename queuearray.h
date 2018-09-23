@@ -44,4 +44,4 @@ void serve(Q *pQueue,int *served,int *underflow)
 		*underflow = FALSE;
 		*served = pQueue->a[++(pQueue->front)];
 	}
-}  
+}   

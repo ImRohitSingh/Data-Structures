@@ -23,6 +23,8 @@ int main()
 	fout = fopen("Sorted_Using_Quick.txt","w+");
 	for(i=0; i<n; ++i)
 		fprintf(fout," %d ",a[i]);  // populate file with sorted a[i] elements
-		
+	
+	fclose(fin);
+	fclose(fout);	
 	return 0;	
 }

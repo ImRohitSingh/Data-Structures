@@ -14,4 +14,4 @@ int main()
 	printf("\n\nThe sorted array: \n\n");
 	displayArray(a,n);  // function call to display an array
 	return 0;
-}
+} 
